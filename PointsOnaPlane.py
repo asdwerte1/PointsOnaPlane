@@ -22,9 +22,16 @@ class Point:
         diff_in_y = self.__y - point.gety()
         return math.hypot(diff_in_x, diff_in_y)
 
+class Triangle:
+    def __init__(self, vertice1, vertice2, vertice3):
+        #
+        # Write code here
+        #
 
+    def perimeter(self):
+        #
+        # Write code here
+        #
 
-point1 = Point(0, 0)
-point2 = Point(1, 1)
-print(point1.distance_from_point(point2))
-print(point2.distance_from_xy(2, 0))
+triangle = Triangle(Point(0, 0), Point(1, 0), Point(0, 1))
+print(triangle.perimeter())
